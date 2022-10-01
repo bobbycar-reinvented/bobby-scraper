@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const crypto = require('crypto');
 require('dotenv').config();
 
-const validNames = ["peter", "feedc0de", "mick", "seatbot", "comred_new"];
+const validNames = ["peter", "feedc0de", "feedc0de_new", "mick", "seatbot", "comred_new"];
 
 const app = express();
 app.use(bodyParser.json());
